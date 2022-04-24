@@ -1,4 +1,5 @@
 # https://www.netlifycms.org/docs/add-to-your-site/
+# MUST USE SPACES, NOT TABS
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to main)
