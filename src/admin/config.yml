@@ -1,7 +1,4 @@
-# https://www.netlifycms.org/docs/add-to-your-site/
-# USE SPACES, NOT TABS
-##
-backend:
+backend: # https://www.netlifycms.org/docs/add-to-your-site/
   name: git-gateway
   branch: main # Branch to update (optional; defaults to main)
 media_folder: "public/assets/blog" # where files will be saved too
@@ -16,7 +13,7 @@ collections:  # A new post GUI creation
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }\
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
